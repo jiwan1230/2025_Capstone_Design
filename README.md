@@ -21,12 +21,25 @@
 > 다수의 RoboMaster S1이 카메라 기반 객체 인식 결과와 UDP Broadcast를 활용하여 중앙 서버 없이 협력 이동하는 시연입니다.
 
 <p align="center">
-  <img src="assets/demo.gif" width="520" alt="VISCAR demo gif">
+  <img src="assets/demo.gif" width="520" alt="VISCAR full scenario demo gif">
 </p>
 
-- Full demo video: [`assets/demo.mp4`](assets/demo.mp4)
+- Demo preview video: [`assets/demo_compressed.mp4`](assets/demo_compressed.mp4)
 - Poster: [`assets/poster.pdf`](assets/poster.pdf)
 - Award: [`assets/award.pdf`](assets/award.pdf)
+
+---
+
+## Consensus Algorithm Demo
+
+> 각 Agent가 Global Map이나 중앙 서버 없이 `object_count` 기반 최소 정보만 공유하고, 수신된 정보에 따라 군집 이동 방향을 정렬하는 Consensus 수행 장면입니다.
+
+<p align="center">
+  <img src="assets/consensus.gif" width="520" alt="Consensus algorithm demo gif">
+</p>
+
+- Consensus preview video: [`assets/consensus_compressed.mp4`](assets/consensus_compressed.mp4)
+- Original full demo video is not tracked in this repository due to file size. Use GitHub Releases, Git LFS, or an external video link if the full-resolution video is needed.
 
 ---
 
@@ -167,7 +180,9 @@ flowchart LR
 2025_Capstone_Design/
 ├── assets/
 │   ├── demo.gif
-│   ├── demo.mp4
+│   ├── demo_compressed.mp4
+│   ├── consensus.gif
+│   ├── consensus_compressed.mp4
 │   ├── poster_preview.png
 │   ├── poster.pdf
 │   ├── award_preview.jpg
